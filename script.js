@@ -242,7 +242,7 @@ function populateGamePage() {
 
 // Displays 3, 2, 1, GO!
 const countDownStart = () => {
-  let count = 5;
+  let count = 3;
   countdown.textContent = count;
   const timeCountDown = setInterval(() => {
     count--;
